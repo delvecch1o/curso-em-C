@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main () {
+	
+	int contador = 1; // while significa enquanto
+	
+	while (contador <= 5) {  // != usado para dizer que eh diferente;
+		printf("%d\n", contador ++); // ou poço colocar ++ contador;  
+	}
+}
