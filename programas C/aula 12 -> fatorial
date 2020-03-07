@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int fatorial = 3;
+int resultado = 1;
+int contador;
+
+int main () {
+
+	for ( ; fatorial >= 1 ; -- fatorial ) {
+		resultado *= fatorial;
+	}
+	
+	printf("O numero fatorial eh %d\n", resultado);
+	
+	
+	
+	return 0;
+}
