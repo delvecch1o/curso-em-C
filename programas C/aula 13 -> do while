@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+int main () {
+	int i = 0;
+	while (i !=0) {
+		printf("Teste\n");
+	}
+	
+	do {                      // do = faca isso printf("Teste 2\n");
+		printf("Teste 2\n");
+	}	while (i !=0);    // while = enquanto while (i !=0) essa condicao for satisfeita
+return 0;
+}
