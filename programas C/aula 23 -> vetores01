@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	int vetor [5] = {10,5,4,3,8};
+	
+	for (int i = 0; i < 5; i++) {
+		printf("%d\n", vetor[i]);
+	}
+
+    return 0;
+}
