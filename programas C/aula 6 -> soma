@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main () {
+	int minhaIdade = 26;
+	int maeIdade = 50;
+	int paiIdade = 60;
+	int irmaoIdade = 8;
+	
+	int idadeTotal;
+	
+	idadeTotal = minhaIdade + maeIdade + paiIdade + irmaoIdade -44 ;
+	
+	printf("A idade total eh %d", idadeTotal);
+	
+	
+	return 0;
+}
