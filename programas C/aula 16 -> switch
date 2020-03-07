@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int i;
+	
+	printf("Digite um numero inteiro de 1 a 5\n");
+	scanf ("%d", &i);
+	
+	switch(i) {     
+		case 1:  // caso digite 1 execute -->> printf ("primeiro\n");
+			printf ("primeiro\n");
+			break;
+		case 2: // caso digite 2 execute -->> printf("segundo\n");
+			printf("segundo\n");
+			break;   // caso ele emcontre a opcao desejado ele pula.
+		case 3:
+			printf ("teceiro\n");
+			break;
+		case 4:
+			printf ("quarto\n");
+			break;
+		case 5:
+			printf("quinto\n");
+			break;
+		default:  // caso a variavel nao seja utilizada ele ira exibir --->> printf("opcao invalida\n");
+			printf("opcao invalida\n");
+			break; 
+			
+	}
+	return 0;
+}
