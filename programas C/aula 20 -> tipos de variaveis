@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	/*
+	char variavelChar = 'a';
+	printf("%c\n", variavelChar);
+	scanf("%c", &variavelChar);
+	printf("%c\n", variavelChar);
+	*/
+	
+	/*
+	bool variavelBool = false 0 , true 1;
+	printf("%d\n", variavelBool);
+    */
+	
+	/*
+    long int variavelInt = 10065495741320;
+    int  variavelInt = 5;
+    const int variavelInt = 10;
+	printf("%d\n", variavelInt);
+	scanf ("%d", &variavelInt);
+	printf("%d\n", variavelInt);
+    */
+    
+    /*
+    float variavelFloat = 10.10;
+    printf("%f\n", variavelFloat);
+    scanf("%f", &variavelFloat);
+    printf("%f\n", variavelFloat);
+    */
+    
+    /*
+    double variavelDouble = 12.10; //unsigned // so assume valores positivos
+    printf ("%f\n", variavelDouble);
+    scanf ("%lf", &variavelDouble);
+    printf ("%f\n", variavelDouble);
+    */
+    
+    
+    return 0;
+}
