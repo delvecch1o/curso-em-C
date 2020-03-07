@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int nota [5];
+	nota [0] = 10;
+	nota [1] = 8;
+	nota [2] = 7;
+	nota [3] = 6;
+	nota [4] = 5;
+	printf("%d\n", nota[0]);
+	printf("%d\n", nota[1]);
+	printf("%d\n", nota[2]);   
+	printf("%d\n", nota[3]);
+	printf("%d\n", nota[4]);
+    return 0;
+}
