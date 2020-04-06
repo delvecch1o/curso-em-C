@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	char x[100];
+	FILE *file = fopen("chuva.txt","r");
+	
+	int i = 0;
+	while((x[i] = fgetc(file)) != EOF){ //EOF tradução literal eh = final de arquivo
+		++i;
+	}
+	
+	x[++i] = '\0';
+	printf ("%s\n", x);
+	
+    system("pause");
+    return 0;
+}
+
+//fgetc sempre sera uma função 
