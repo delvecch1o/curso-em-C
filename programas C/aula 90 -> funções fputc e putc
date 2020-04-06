@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	char x[] = "pastel";
+	FILE *file = fopen ("bola1.txt","w");
+	
+//	putc('h', stdout); // stdout significa para saida do arquivo
+//	putc(x[5], file);
+
+	int i = 0;
+	while(x[i] != '\0'){
+		putc(x[i], stdout); // "stdout" dessa maneira ele ira aparecer no console, // "file" ira aparecer no arquivo de texto
+		++i;
+	}
+	printf("\n");
+    system("pause");
+    return 0;
+}
